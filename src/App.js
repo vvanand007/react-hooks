@@ -1,5 +1,7 @@
 import './App.css';
 import SignUpForm from './useActionStateDemo/SignUpForm';
+import WithoutUseCallback from './useCallback/WithoutUseCallback';
+import WithUseCallback from './useCallback/WithUseCallback';
 import UseContextDemo from './useContextDemo/UseContextDemo';
 import WithoutUseMemoDemo from './useMemo/WithoutUseMemoDemo';
 import WithUseMemoDemo from './useMemo/WithUseMemoDemo';
@@ -14,7 +16,9 @@ function App() {
       {/* <PrevState/> */}
       {/* <SignUpForm/> */}
       {/* <WithoutUseMemoDemo/> */}
-      <WithUseMemoDemo/>
+      {/* <WithUseMemoDemo/> */}
+      {/* <WithoutUseCallback/> */}
+      <WithUseCallback/>
     </div>
   );
 }
