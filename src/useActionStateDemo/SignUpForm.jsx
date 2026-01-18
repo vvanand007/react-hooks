@@ -9,7 +9,7 @@ export default function SignUpForm() {
         const email = formData.get("email");
         const password = formData.get("password");
         // console.log({ prevState, formData });
-        await new Promise(res => setTimeout(res, 1000));
+        await new Promise(res => setTimeout(res, 1000)); // simulate delay
 
         if (userNme && email && password)
             return { error: null, success: "signed up" };
