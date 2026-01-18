@@ -1,6 +1,8 @@
 import './App.css';
 import SignUpForm from './useActionStateDemo/SignUpForm';
 import UseContextDemo from './useContextDemo/UseContextDemo';
+import WithoutUseMemoDemo from './useMemo/WithoutUseMemoDemo';
+import WithUseMemoDemo from './useMemo/WithUseMemoDemo';
 import AutoFocus from './useRefDemo/AutoFocus';
 import PrevState from './useRefDemo/PrevState';
 
@@ -10,7 +12,9 @@ function App() {
       {/* <UseContextDemo /> */}
       {/* <AutoFocus/> */}
       {/* <PrevState/> */}
-      <SignUpForm/>
+      {/* <SignUpForm/> */}
+      {/* <WithoutUseMemoDemo/> */}
+      <WithUseMemoDemo/>
     </div>
   );
 }
